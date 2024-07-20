@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#111827;
+    color: white;
+}
+nav{
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+    text-align: right;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.left img{
+    height: 30px;
+    width: 30px;
+}
+.left h2{
+    font-size: 60px;
+
+}
+.left p{
+    font-size: 30px;
+}
+.left p span{
+    font-size: 35px;
+    color:rgb(197, 197, 89);;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right img{
+     height: 400px;
+     width: 600px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.bottom h3{
+    font-size: 20px;
+}
+.bar{
+    background-color: blue;
+    height: 5px;
+    width: 80px;
+}
+.top{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+.bottom img{
+    height: 300px;
+    width: 300px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bar2{
+    background-color: blue;
+    height: 5px;
+    width: 100px;
+
+}
+.icons{
+    margin: 10px;
+}
+@media screen and (max-width: 576px) {
+    nav ul{
+        display: none;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .left img{
+        height: 40px;
+        width: 40px;
+    }
+    .left h2{
+        font-size: 40px;
+    
+    }
+    .left p{
+        font-size: 20px;
+    }
+    .left p span{
+        font-size: 25px;
+        color:rgb(197, 197, 89);
+    }
+    .right img{
+        margin: 20px;
+        height: 350px;
+        width: 300px;
+   }
+   .top{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+   
+}
+
